@@ -1,16 +1,89 @@
-# React + Vite
+# ✈️ Quix Travel — Mock API Travel Booking Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-ready **travel booking frontend** built with **React**, **Vite**, **Tailwind CSS v4**, and **Framer Motion**.  
+The app simulates a real travel platform (flights, hotels, holidays) using **mock data** while delivering real-world UX patterns like search, region-based pricing, authentication UI, and third-party integrations.
 
-Currently, two official plugins are available:
+Repository: https://github.com/SubDan12/travel-booking
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Quix Travel is a **frontend-only application** designed to demonstrate how a real travel booking product behaves — without a backend.
 
-## Expanding the ESLint configuration
+This project focuses on:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Product-like UX
+- Clean component architecture
+- Realistic frontend logic
+- Performance and responsiveness
+- Production deployment workflow
+
+It is **backend-agnostic** and ready to be connected to real APIs in the future.
+
+---
+
+## Key Features
+
+- **Destination Search**
+- Search and filter flights, hotels, and holiday packages
+- Empty state handling for no results
+
+- **Region-Based Pricing**
+- Automatic region detection
+- Currency switching (USD / EUR / INR)
+- VPN-safe logic
+
+- **Mock API Architecture**
+- Structured mock data for all travel entities
+- Clean data helpers and filters
+- No hard-coded UI logic
+
+- **Authentication UI (Mock)**
+- Sign In / Sign Up modal
+- Realistic auth flows (frontend only)
+
+- **Newsletter Subscription**
+- Real email capture via **Formspree**
+- Loading, success, and error states
+
+- **Premium UI & Animations**
+- Tailwind CSS v4
+- Framer Motion for smooth transitions
+- Fully responsive (mobile-first)
+
+- **Production Deployment**
+- Deployed on Vercel
+- Git-based auto deployment
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** React + Vite
+- **Styling:** Tailwind CSS v4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Forms:** Formspree
+- **Deployment:** Vercel
+
+---
+
+## Architecture Notes
+
+- This app uses **mock APIs** (local data + helpers) to simulate real backend behavior.
+- Business logic is separated from UI components.
+- The frontend is designed to be **plug-and-play** with a real backend later.
+- No payments, bookings, or databases are included by design.
+
+---
+
+## Installation & Setup
+
+# Install dependencies
+
+npm install
+
+# Run locally
+
+npm run dev
