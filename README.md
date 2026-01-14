@@ -3,6 +3,7 @@
 A production-ready **travel booking frontend** built with **React**, **Vite**, **Tailwind CSS v4**, and **Framer Motion**.  
 The app simulates a real travel platform (flights, hotels, holidays) using **mock data** while delivering real-world UX patterns like search, region-based pricing, authentication UI, and third-party integrations.
 
+Live Demo: https://travel-booking-ten-orpin.vercel.app/
 Repository: https://github.com/SubDan12/travel-booking
 
 ---
