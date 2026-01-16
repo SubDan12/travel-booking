@@ -1,5 +1,3 @@
-// src/data/trending.holidays.js
-
 export const trendingHolidays = [
   {
     id: "HL-001",
