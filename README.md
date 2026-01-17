@@ -8,6 +8,22 @@ Repository: https://github.com/SubDan12/travel-booking
 
 ---
 
+## Screenshots
+
+### Desktop
+
+![Hero Section](./screenshots/hero.png)
+![Trending Deals](./screenshots/trending.png)
+![Top Destinations](./screenshots/top-destinations.png)
+![Authentication Modal](./screenshots/signup-modal.png)
+
+### Mobile
+
+![Mobile Hero](./screenshots/mobile-hero.jpg)
+![Mobile Menu](./screenshots/mobile-menu.jpg)
+
+---
+
 ## Project Overview
 
 Quix Travel is a **frontend-only application** designed to demonstrate how a real travel booking product behaves — without a backend.
